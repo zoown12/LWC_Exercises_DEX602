@@ -13,4 +13,6 @@ echo "*** Creating data"
 # sfdx ETCopyData:import -c EXFiles/data --loglevel warn
 sfdx force:apex:execute -f EXFiles/data/DeleteAndLoadData.txt
 
-#$ ./EXFiles/scripts/CreateOrg.sh
+# $./EXFiles/scripts/CreateOrg.sh  --> org 한번에 생성
+
+#sfdx force:user:password:generate --> 모바일 임시 비밀번호 및 아이디 생성
