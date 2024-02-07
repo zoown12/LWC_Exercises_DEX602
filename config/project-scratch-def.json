@@ -1,5 +1,5 @@
 {
-	"orgName": "AW Computing",
+	"orgName": "DEX602_KIM",
 	"edition": "Developer",
     "settings": {
         "userManagementSettings": {
@@ -9,6 +9,7 @@
 			"enableS1DesktopEnabled": true
         },
         "mobileSettings": {
+            "enableS1EncryptedStoragePref2" : false
         },
         "languageSettings": {
             "enableTranslationWorkbench": true
