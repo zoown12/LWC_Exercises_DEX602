@@ -1,5 +1,5 @@
 {
-    "serverMaxRevisionCounter": 448,
+    "serverMaxRevisionCounter": 493,
     "sourceMembers": {
         "ListView__Account.AllAccounts": {
             "serverRevisionCounter": 111,
@@ -333,7 +333,7 @@
         },
         "Profile__Admin": {
             "serverRevisionCounter": 443,
-            "lastRetrievedFromServer": 13,
+            "lastRetrievedFromServer": 443,
             "memberType": "Profile",
             "isNameObsolete": false
         },
@@ -812,8 +812,8 @@
             "isNameObsolete": false
         },
         "FlexiPage__AwInstructors": {
-            "serverRevisionCounter": 227,
-            "lastRetrievedFromServer": 227,
+            "serverRevisionCounter": 465,
+            "lastRetrievedFromServer": 465,
             "memberType": "FlexiPage",
             "isNameObsolete": false
         },
@@ -891,31 +891,31 @@
         },
         "ReportType__flow_orchestration_work_item_ootb_crt_two_four_eight": {
             "serverRevisionCounter": 430,
-            "lastRetrievedFromServer": null,
+            "lastRetrievedFromServer": 430,
             "memberType": "ReportType",
             "isNameObsolete": false
         },
         "ReportType__flow_orchestration_run_ootb_crt_two_four_eight": {
             "serverRevisionCounter": 424,
-            "lastRetrievedFromServer": null,
+            "lastRetrievedFromServer": 424,
             "memberType": "ReportType",
             "isNameObsolete": false
         },
         "ReportType__flow_orchestration_stage_run_ootb_crt_two_four_eight": {
             "serverRevisionCounter": 426,
-            "lastRetrievedFromServer": null,
+            "lastRetrievedFromServer": 426,
             "memberType": "ReportType",
             "isNameObsolete": false
         },
         "ReportType__flow_orchestration_step_run_ootb_crt_two_four_eight": {
             "serverRevisionCounter": 428,
-            "lastRetrievedFromServer": null,
+            "lastRetrievedFromServer": 428,
             "memberType": "ReportType",
             "isNameObsolete": false
         },
         "ReportType__flow_orchestration_log_ootb_crt_two_four_eight": {
             "serverRevisionCounter": 432,
-            "lastRetrievedFromServer": null,
+            "lastRetrievedFromServer": 432,
             "memberType": "ReportType",
             "isNameObsolete": false
         },
@@ -923,6 +923,30 @@
             "serverRevisionCounter": 444,
             "lastRetrievedFromServer": 444,
             "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "LightningComponentBundle__studentDetail": {
+            "serverRevisionCounter": 490,
+            "lastRetrievedFromServer": 490,
+            "memberType": "LightningComponentBundle",
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__studentDetail/studentDetail.js-meta.xml": {
+            "serverRevisionCounter": 493,
+            "lastRetrievedFromServer": 493,
+            "memberType": "LightningComponentResource",
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__studentDetail/studentDetail.js": {
+            "serverRevisionCounter": 491,
+            "lastRetrievedFromServer": 491,
+            "memberType": "LightningComponentResource",
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__studentDetail/studentDetail.html": {
+            "serverRevisionCounter": 492,
+            "lastRetrievedFromServer": 492,
+            "memberType": "LightningComponentResource",
             "isNameObsolete": false
         }
     }
