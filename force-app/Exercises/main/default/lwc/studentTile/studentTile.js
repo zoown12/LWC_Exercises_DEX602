@@ -8,6 +8,7 @@ export default class StudentTile extends LightningElement {
         console.log('Name', this.student.Name);
         console.log('photo', this.student.PhotoUrl); */
         const evt = new CustomEvent('studentselected', {
+            bubbles: true, composed: true,
             detail: { studentId: this.student.Id }
             });
             this.dispatchEvent(evt);
