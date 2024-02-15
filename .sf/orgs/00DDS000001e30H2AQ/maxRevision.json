@@ -1,5 +1,5 @@
 {
-    "serverMaxRevisionCounter": 829,
+    "serverMaxRevisionCounter": 849,
     "sourceMembers": {
         "ListView__Account.AllAccounts": {
             "serverRevisionCounter": 111,
@@ -326,13 +326,13 @@
             "isNameObsolete": false
         },
         "Profile__Training User": {
-            "serverRevisionCounter": 696,
+            "serverRevisionCounter": 840,
             "lastRetrievedFromServer": 696,
             "memberType": "Profile",
             "isNameObsolete": false
         },
         "Profile__Admin": {
-            "serverRevisionCounter": 694,
+            "serverRevisionCounter": 839,
             "lastRetrievedFromServer": 694,
             "memberType": "Profile",
             "isNameObsolete": false
@@ -572,7 +572,7 @@
             "isNameObsolete": false
         },
         "CustomApplication__Certification_Lightning": {
-            "serverRevisionCounter": 174,
+            "serverRevisionCounter": 836,
             "lastRetrievedFromServer": 174,
             "memberType": "CustomApplication",
             "isNameObsolete": false
@@ -674,7 +674,7 @@
             "isNameObsolete": false
         },
         "PermissionSet__Certification": {
-            "serverRevisionCounter": 216,
+            "serverRevisionCounter": 842,
             "lastRetrievedFromServer": 216,
             "memberType": "PermissionSet",
             "isNameObsolete": false
@@ -800,7 +800,7 @@
             "isNameObsolete": false
         },
         "Profile__B2B Reordering Portal Buyer Profile": {
-            "serverRevisionCounter": 695,
+            "serverRevisionCounter": 838,
             "lastRetrievedFromServer": 695,
             "memberType": "Profile",
             "isNameObsolete": false
@@ -1078,6 +1078,60 @@
         "LightningComponentResource__layoutManager/layoutManager.html": {
             "serverRevisionCounter": 828,
             "lastRetrievedFromServer": 828,
+            "memberType": "LightningComponentResource",
+            "isNameObsolete": false
+        },
+        "ListView__Course_Attendee__c.All": {
+            "serverRevisionCounter": 841,
+            "lastRetrievedFromServer": null,
+            "memberType": "ListView",
+            "isNameObsolete": false
+        },
+        "CustomTab__AwInstructors_Cmp_Tab": {
+            "serverRevisionCounter": 830,
+            "lastRetrievedFromServer": null,
+            "memberType": "CustomTab",
+            "isNameObsolete": false
+        },
+        "CustomTab__Course_Attendee__c": {
+            "serverRevisionCounter": 837,
+            "lastRetrievedFromServer": null,
+            "memberType": "CustomTab",
+            "isNameObsolete": false
+        },
+        "AuraDefinitionBundle__Override_View_CourseAttendee": {
+            "serverRevisionCounter": 848,
+            "lastRetrievedFromServer": 848,
+            "memberType": "AuraDefinitionBundle",
+            "isNameObsolete": false
+        },
+        "AuraDefinition__Override_View_CourseAttendee/Override_View_CourseAttendee.cmp": {
+            "serverRevisionCounter": 849,
+            "lastRetrievedFromServer": 849,
+            "memberType": "AuraDefinition",
+            "isNameObsolete": false
+        },
+        "LightningComponentBundle__courseAttendee": {
+            "serverRevisionCounter": 844,
+            "lastRetrievedFromServer": 844,
+            "memberType": "LightningComponentBundle",
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__courseAttendee/courseAttendee.js": {
+            "serverRevisionCounter": 845,
+            "lastRetrievedFromServer": 845,
+            "memberType": "LightningComponentResource",
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__courseAttendee/courseAttendee.html": {
+            "serverRevisionCounter": 846,
+            "lastRetrievedFromServer": 846,
+            "memberType": "LightningComponentResource",
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__courseAttendee/courseAttendee.js-meta.xml": {
+            "serverRevisionCounter": 847,
+            "lastRetrievedFromServer": 847,
             "memberType": "LightningComponentResource",
             "isNameObsolete": false
         }
