@@ -1,5 +1,5 @@
 {
-    "serverMaxRevisionCounter": 745,
+    "serverMaxRevisionCounter": 775,
     "sourceMembers": {
         "ListView__Account.AllAccounts": {
             "serverRevisionCounter": 111,
@@ -356,7 +356,7 @@
             "isNameObsolete": false
         },
         "Layout__Course_Delivery__c-Course Delivery Layout": {
-            "serverRevisionCounter": 127,
+            "serverRevisionCounter": 770,
             "lastRetrievedFromServer": 127,
             "memberType": "Layout",
             "isNameObsolete": false
@@ -1024,6 +1024,36 @@
         "LightningComponentResource__deliveryListAction/deliveryListAction.js-meta.xml": {
             "serverRevisionCounter": 744,
             "lastRetrievedFromServer": 744,
+            "memberType": "LightningComponentResource",
+            "isNameObsolete": false
+        },
+        "QuickAction__Course_Delivery__c.DeliveryListAction": {
+            "serverRevisionCounter": 746,
+            "lastRetrievedFromServer": null,
+            "memberType": "QuickAction",
+            "isNameObsolete": false
+        },
+        "LightningComponentBundle__deliveryDetailMap": {
+            "serverRevisionCounter": 772,
+            "lastRetrievedFromServer": 772,
+            "memberType": "LightningComponentBundle",
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__deliveryDetailMap/deliveryDetailMap.js-meta.xml": {
+            "serverRevisionCounter": 773,
+            "lastRetrievedFromServer": 773,
+            "memberType": "LightningComponentResource",
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__deliveryDetailMap/deliveryDetailMap.html": {
+            "serverRevisionCounter": 774,
+            "lastRetrievedFromServer": 774,
+            "memberType": "LightningComponentResource",
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__deliveryDetailMap/deliveryDetailMap.js": {
+            "serverRevisionCounter": 775,
+            "lastRetrievedFromServer": 775,
             "memberType": "LightningComponentResource",
             "isNameObsolete": false
         }
