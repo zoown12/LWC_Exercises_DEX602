@@ -1,5 +1,5 @@
 {
-    "serverMaxRevisionCounter": 775,
+    "serverMaxRevisionCounter": 829,
     "sourceMembers": {
         "ListView__Account.AllAccounts": {
             "serverRevisionCounter": 111,
@@ -662,7 +662,7 @@
             "isNameObsolete": false
         },
         "FlexiPage__Course_Delivery_Record_Page": {
-            "serverRevisionCounter": 136,
+            "serverRevisionCounter": 822,
             "lastRetrievedFromServer": 136,
             "memberType": "FlexiPage",
             "isNameObsolete": false
@@ -1054,6 +1054,30 @@
         "LightningComponentResource__deliveryDetailMap/deliveryDetailMap.js": {
             "serverRevisionCounter": 775,
             "lastRetrievedFromServer": 775,
+            "memberType": "LightningComponentResource",
+            "isNameObsolete": false
+        },
+        "LightningComponentBundle__layoutManager": {
+            "serverRevisionCounter": 826,
+            "lastRetrievedFromServer": 826,
+            "memberType": "LightningComponentBundle",
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__layoutManager/layoutManager.js": {
+            "serverRevisionCounter": 829,
+            "lastRetrievedFromServer": 829,
+            "memberType": "LightningComponentResource",
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__layoutManager/layoutManager.js-meta.xml": {
+            "serverRevisionCounter": 827,
+            "lastRetrievedFromServer": 827,
+            "memberType": "LightningComponentResource",
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__layoutManager/layoutManager.html": {
+            "serverRevisionCounter": 828,
+            "lastRetrievedFromServer": 828,
             "memberType": "LightningComponentResource",
             "isNameObsolete": false
         }
