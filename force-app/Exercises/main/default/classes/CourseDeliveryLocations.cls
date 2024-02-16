@@ -5,4 +5,14 @@ public with sharing class CourseDeliveryLocations {
         FROM Course_Delivery__c 
         WHERE Location__c != null WITH SECURITY_ENFORCED GROUP BY Location__c];
     }
+
+    public List<AggregateResult> locationsVF{
+        get{
+            if(locationsVF == null){
+                locationsVF = CourseDeliveryLocations.getLocations();
+            }
+            return locationsVF;
+        }
+        private set;
+    }
 }

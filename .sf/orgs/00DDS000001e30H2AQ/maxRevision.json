@@ -1,5 +1,5 @@
 {
-    "serverMaxRevisionCounter": 861,
+    "serverMaxRevisionCounter": 880,
     "sourceMembers": {
         "ListView__Account.AllAccounts": {
             "serverRevisionCounter": 111,
@@ -332,7 +332,7 @@
             "isNameObsolete": false
         },
         "Profile__Admin": {
-            "serverRevisionCounter": 839,
+            "serverRevisionCounter": 879,
             "lastRetrievedFromServer": 694,
             "memberType": "Profile",
             "isNameObsolete": false
@@ -962,8 +962,8 @@
             "isNameObsolete": false
         },
         "ApexClass__CourseDeliveryLocations": {
-            "serverRevisionCounter": 675,
-            "lastRetrievedFromServer": 675,
+            "serverRevisionCounter": 877,
+            "lastRetrievedFromServer": 877,
             "memberType": "ApexClass",
             "isNameObsolete": false
         },
@@ -1157,6 +1157,60 @@
             "serverRevisionCounter": 861,
             "lastRetrievedFromServer": 861,
             "memberType": "AuraDefinition",
+            "isNameObsolete": false
+        },
+        "AuraDefinitionBundle__vfDependency": {
+            "serverRevisionCounter": 868,
+            "lastRetrievedFromServer": 868,
+            "memberType": "AuraDefinitionBundle",
+            "isNameObsolete": false
+        },
+        "AuraDefinition__vfDependency/vfDependency.app": {
+            "serverRevisionCounter": 869,
+            "lastRetrievedFromServer": 869,
+            "memberType": "AuraDefinition",
+            "isNameObsolete": false
+        },
+        "AuraDefinition__vfDependency/vfDependencyController.js": {
+            "serverRevisionCounter": 870,
+            "lastRetrievedFromServer": 870,
+            "memberType": "AuraDefinition",
+            "isNameObsolete": false
+        },
+        "AuraDefinition__vfDependency/vfDependencyHelper.js": {
+            "serverRevisionCounter": 871,
+            "lastRetrievedFromServer": 871,
+            "memberType": "AuraDefinition",
+            "isNameObsolete": false
+        },
+        "AuraDefinition__vfDependency/vfDependency.css": {
+            "serverRevisionCounter": 872,
+            "lastRetrievedFromServer": 872,
+            "memberType": "AuraDefinition",
+            "isNameObsolete": false
+        },
+        "AuraDefinition__vfDependency/vfDependency.auradoc": {
+            "serverRevisionCounter": 873,
+            "lastRetrievedFromServer": 873,
+            "memberType": "AuraDefinition",
+            "isNameObsolete": false
+        },
+        "AuraDefinition__vfDependency/vfDependencyRenderer.js": {
+            "serverRevisionCounter": 874,
+            "lastRetrievedFromServer": 874,
+            "memberType": "AuraDefinition",
+            "isNameObsolete": false
+        },
+        "AuraDefinition__vfDependency/vfDependency.svg": {
+            "serverRevisionCounter": 875,
+            "lastRetrievedFromServer": 875,
+            "memberType": "AuraDefinition",
+            "isNameObsolete": false
+        },
+        "ApexPage__DeliveryListVF": {
+            "serverRevisionCounter": 880,
+            "lastRetrievedFromServer": 880,
+            "memberType": "ApexPage",
             "isNameObsolete": false
         }
     }
