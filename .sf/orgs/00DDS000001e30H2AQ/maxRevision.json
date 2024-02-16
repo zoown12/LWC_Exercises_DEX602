@@ -1,5 +1,5 @@
 {
-    "serverMaxRevisionCounter": 849,
+    "serverMaxRevisionCounter": 861,
     "sourceMembers": {
         "ListView__Account.AllAccounts": {
             "serverRevisionCounter": 111,
@@ -428,7 +428,7 @@
             "isNameObsolete": false
         },
         "CustomObject__Course_Attendee__c": {
-            "serverRevisionCounter": 96,
+            "serverRevisionCounter": 851,
             "lastRetrievedFromServer": 96,
             "memberType": "CustomObject",
             "isNameObsolete": false
@@ -1112,27 +1112,51 @@
             "isNameObsolete": false
         },
         "LightningComponentBundle__courseAttendee": {
-            "serverRevisionCounter": 844,
-            "lastRetrievedFromServer": 844,
+            "serverRevisionCounter": 852,
+            "lastRetrievedFromServer": 852,
             "memberType": "LightningComponentBundle",
             "isNameObsolete": false
         },
         "LightningComponentResource__courseAttendee/courseAttendee.js": {
-            "serverRevisionCounter": 845,
-            "lastRetrievedFromServer": 845,
+            "serverRevisionCounter": 853,
+            "lastRetrievedFromServer": 853,
             "memberType": "LightningComponentResource",
             "isNameObsolete": false
         },
         "LightningComponentResource__courseAttendee/courseAttendee.html": {
-            "serverRevisionCounter": 846,
-            "lastRetrievedFromServer": 846,
+            "serverRevisionCounter": 854,
+            "lastRetrievedFromServer": 854,
             "memberType": "LightningComponentResource",
             "isNameObsolete": false
         },
         "LightningComponentResource__courseAttendee/courseAttendee.js-meta.xml": {
-            "serverRevisionCounter": 847,
-            "lastRetrievedFromServer": 847,
+            "serverRevisionCounter": 855,
+            "lastRetrievedFromServer": 855,
             "memberType": "LightningComponentResource",
+            "isNameObsolete": false
+        },
+        "AuraDefinitionBundle__AwApp": {
+            "serverRevisionCounter": 858,
+            "lastRetrievedFromServer": 858,
+            "memberType": "AuraDefinitionBundle",
+            "isNameObsolete": false
+        },
+        "AuraDefinition__AwApp/AwApp.app": {
+            "serverRevisionCounter": 859,
+            "lastRetrievedFromServer": 859,
+            "memberType": "AuraDefinition",
+            "isNameObsolete": false
+        },
+        "AuraDefinitionBundle__AwAppTemplate": {
+            "serverRevisionCounter": 860,
+            "lastRetrievedFromServer": 860,
+            "memberType": "AuraDefinitionBundle",
+            "isNameObsolete": false
+        },
+        "AuraDefinition__AwAppTemplate/AwAppTemplate.cmp": {
+            "serverRevisionCounter": 861,
+            "lastRetrievedFromServer": 861,
+            "memberType": "AuraDefinition",
             "isNameObsolete": false
         }
     }

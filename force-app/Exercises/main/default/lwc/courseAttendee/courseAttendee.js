@@ -6,6 +6,7 @@ import FIELD_StartDate from '@salesforce/schema/Course_Attendee__c.Course_Delive
 import FIELD_StudentId from '@salesforce/schema/Course_Attendee__c.Student__c';
 import FIELD_StudentName from '@salesforce/schema/Course_Attendee__c.Student__r.Name';
 import FIELD_StudentPict from '@salesforce/schema/Course_Attendee__c.Student__r.PhotoUrl';
+
 const fields = [FIELD_CourseName, FIELD_StartDate, FIELD_StudentId, FIELD_StudentName, FIELD_StudentPict];
 
 export default class CourseAttendee extends NavigationMixin(LightningElement) {
