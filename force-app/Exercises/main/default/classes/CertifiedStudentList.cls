@@ -9,11 +9,12 @@ public with sharing class CertifiedStudentList {
             Certified_Professional__r.Id,
             Certified_Professional__r.Email,
             Certified_Professional__r.Phone,
+            Certified_Professional__r.Description,
             Date_Achieved__c
             FROM Certification_Held__c
             WHERE Certification__r.Id =:certificationId
             WITH SECURITY_ENFORCED
             ORDER BY Certified_Professional__r.Name
-        ];
+        ]; // certifiedStudent.js go here
     }
 }

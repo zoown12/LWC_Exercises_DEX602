@@ -14,7 +14,7 @@ export default class CertifiedStudentList extends LightningElement {
                  contactId: certHeld.Certified_Professional__r.Id,
                 name: certHeld.Certified_Professional__r.Name,
             date:certHeld.Date_Achieved__c, email:certHeld.Certified_Professional__r.Email,
-        phone:certHeld.Certified_Professional__r.Phone}));
+        phone:certHeld.Certified_Professional__r.Phone,Description:certHeld.Certified_Professional__r.Description}));
         }else if(result.error){
             this.error = result.error;
         }
@@ -37,6 +37,10 @@ export default class CertifiedStudentList extends LightningElement {
             label:'Phone',
             fieldName:'phone',
             type:'phone'
-        }
+        },{
+            label:'Description',
+            fieldName:'Description',
+            type:'longtext'
+        }   //colunmconfig --> certifiedStudentList.html
     ];
 }
