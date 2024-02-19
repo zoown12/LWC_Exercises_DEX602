@@ -29,7 +29,7 @@ export default class CertifiedStudentList extends LightningElement {
     onDelete(){
         const certificationIds = this.getSelectedIDs();
         deleteStudentCertification({certificationIds})
-        .then( () => {refreshApex(this._wiredStudentResult);})
+        .then( () => {refreshApex(this._wiredStudentResult);}) // refresh to delete actions 
         .catch(error => {this.error = error;});
     }
     onRowSelection(event){
