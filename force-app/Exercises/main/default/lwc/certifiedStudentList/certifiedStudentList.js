@@ -4,7 +4,13 @@ export default class CertifiedStudentList extends LightningElement {
     @api certificationId = 0;
     @api certificationName ='';
     certifiedStudents;
+    btnGroupDisabled = true;
     Error;
+
+    onRowSelection(event){
+        const numSelected = event.detail.selectedRows.length;
+        this.btnGroupDisabled = (numSelected === 0);
+    }
 
     @wire(getCertifiedStudents,{certificationId:'$certificationId'})
     wired_getCertifiedStudents(result){
