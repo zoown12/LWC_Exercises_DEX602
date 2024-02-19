@@ -2,8 +2,9 @@ import { LightningElement , wire} from 'lwc';
 import getStudents from '@salesforce/apex/StudentBrowser.getStudents';
 import {publish, MessageContext} from 'lightning/messageService';
 import SELECTED_STUDENT_CHANNEL from '@salesforce/messageChannel/SelectedStudentChannel__c';
+import { NavigationMixin } from 'lightning/navigation';
 
-export default class StudentBrowser extends LightningElement {
+export default class StudentBrowser extends NavigationMixin(LightningElement) {
 
     selectedDeliveryId = '';
     selectedInstructorId = '';
@@ -11,9 +12,32 @@ export default class StudentBrowser extends LightningElement {
     @wire(getStudents, {instructorId: '$selectedInstructorId', courseDeliveryId: '$selectedDeliveryId'})
     students;
 
+    cols = [{
+                fieldName:"Name", label: "Name"
+            },{
+                fieldName:"Title", label: "Title", hiddenOnMobile :true
+            },{
+                fieldName:"Phone", label: "Phone", type: "phone" 
+            },{
+                fieldName:"Email", label: "E-mail" , type: "email"
+            }
+        ];
+
     handleFilterChange(event) {
         this.selectedDeliveryId = event.detail.deliveryId;
         this.selectedInstructorId = event.detail.instructorId;
+    }
+
+    handleRowDblClick(event){
+        const studentId = event.detail.pk;
+        this[NavigationMixin.Navigate] ({
+            type: 'standard__recordPage',
+            attributes: {
+                recordId:studentId,
+                objectApiName: 'Contact',
+                actionName: 'edit'
+            }
+        });
     }
 
     @wire(MessageContext) messageContext;
