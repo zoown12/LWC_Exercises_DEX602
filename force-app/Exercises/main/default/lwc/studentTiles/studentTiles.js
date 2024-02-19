@@ -2,6 +2,10 @@ import { LightningElement,api } from 'lwc';
 
 export default class StudentTiles extends LightningElement {
 
+    @api setSelectedStudent(studentId) {
+        this.selectedStudentId = studentId;
+    }
+
     @api studentList = [];
 
     selectedStudentId = '';
