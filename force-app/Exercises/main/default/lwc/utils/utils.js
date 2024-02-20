@@ -1,5 +1,6 @@
 import { LightningElement } from 'lwc';
 import {ShowToastEvent} from 'lightning/platformShowToastEvent';
+import {getFieldValue, getFieldDisplayValue} from 'lightning/uiRecordApi';
 
 export default class Utils{
     
@@ -10,5 +11,9 @@ export default class Utils{
             variant: variant
         });
         firingComponent.dispatchEvent(evt);
+    }
+
+    static getDisplayValue(data, field){
+        return getFieldDisplayValue(data,field) ? getFieldDisplayValue(data,field) : getFieldValue(data, field);
     }
 }
